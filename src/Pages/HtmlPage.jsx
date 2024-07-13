@@ -39,7 +39,6 @@ function HtmlPage() {
       </div>
       <Container className="flexImagesContainer">
         <Row>
-          <Col></Col>
           <Col>
             <img
               src="https://s3-alpha-sig.figma.com/img/7147/9344/2501faa7f289434a9b99bafaa474cc0e?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d8HDTlxmw117HmpP~7h9dtfD-enULnsw3OoIeh2oBd2N7vvhAiaeKgk0rBSPmXwORzVM-g7c1IgegjDAjEftRLNi~-8WvCDWIRWHGyYoRE35sZl7jKvdtqIyT3XaT1Cw3VaX~U9hef6uTVFSlJOs~xurJcscLOuriIHl5FZ222v0sLP9uDpGfFDQheYS-m-zpqyDPkH62u-uLPl7RwG1e0TYNwP90KSlgJUA~gQfZtcLXVHdEm15gGx881ZOuH631HqcKzgXN72G8xlX-GzGpWFmISQ7U0ScId162~tngGyKzXNapcXLnJOsn9cL-Xn5YxEjsyVCruq2vDMTofUY1A__"
@@ -64,7 +63,6 @@ function HtmlPage() {
             />
             <p className="flex-para-1">Discover even more ways to play <br /> across thousands of creator-made <br /> game genres</p>
           </Col>
-          <Col></Col>
         </Row>
       </Container>
 
@@ -75,7 +73,6 @@ function HtmlPage() {
 
       <Container className="userExp">
       <Row>
-        <Col></Col>
         <Col><h1 className="userExp-flex">5M</h1>
         <p className="user-para">Daily User<br />Engagements</p>
         </Col>
@@ -85,7 +82,6 @@ function HtmlPage() {
         <Col><h1 className="userExp-flex">10X</h1>
         <p className="user-para">Roads on all our<br />marketing campaigns</p>
         </Col>
-        <Col></Col>
       </Row>
     </Container>
 
