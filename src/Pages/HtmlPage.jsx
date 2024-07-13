@@ -45,7 +45,10 @@ function HtmlPage() {
               alt=""
               className="flexImages"
             />
-            <p className="flex-para-1">Explore large, destructible <br /> environments where no two games <br /> are ever the same.</p>
+            <p className="flex-para-1">
+              Explore large, destructible <br /> environments where no two games{" "}
+              <br /> are ever the same.
+            </p>
           </Col>
           <Col>
             <img
@@ -53,7 +56,11 @@ function HtmlPage() {
               alt=""
               className="flexImages"
             />
-            <p className="flex-para-1">Team up with friends by sprinting,<br /> climbing and smashing your way to <br /> earn your Victory Royale</p>
+            <p className="flex-para-1">
+              Team up with friends by sprinting,
+              <br /> climbing and smashing your way to <br /> earn your Victory
+              Royale
+            </p>
           </Col>
           <Col>
             <img
@@ -61,49 +68,89 @@ function HtmlPage() {
               alt=""
               className="flexImages"
             />
-            <p className="flex-para-1">Discover even more ways to play <br /> across thousands of creator-made <br /> game genres</p>
+            <p className="flex-para-1">
+              Discover even more ways to play <br /> across thousands of
+              creator-made <br /> game genres
+            </p>
           </Col>
         </Row>
       </Container>
 
       <div>
         <h1 className="contribution">Our Contribution</h1>
-        <p className="descPara-3">Our core offering extends beyond mere profit generation; we emphasize the growth and active involvement of our user <br />community. Collaborating with us represents an investment, rather than a mere expenditure. Our dedication to providing <br />distinctive digital interactions guarantees unparalleled benefits for our clientele.</p>
+        <p className="descPara-3">
+          Our core offering extends beyond mere profit generation; we emphasize
+          the growth and active involvement of our user <br />
+          community. Collaborating with us represents an investment, rather than
+          a mere expenditure. Our dedication to providing <br />
+          distinctive digital interactions guarantees unparalleled benefits for
+          our clientele.
+        </p>
       </div>
 
       <Container className="userExp">
-      <Row>
-        <Col><h1 className="userExp-flex">5M</h1>
-        <p className="user-para">Daily User<br />Engagements</p>
-        </Col>
-        <Col><h1 className="userExp-flex">$500K</h1>
-        <p className="user-para">Revenue Surge for an<br />platform</p>
-        </Col>
-        <Col><h1 className="userExp-flex">10X</h1>
-        <p className="user-para">Roads on all our<br />marketing campaigns</p>
-        </Col>
-      </Row>
-    </Container>
+        <Row>
+          <Col>
+            <h1 className="userExp-flex">5M</h1>
+            <p className="user-para">
+              Daily User
+              <br />
+              Engagements
+            </p>
+          </Col>
+          <Col>
+            <h1 className="userExp-flex">$500K</h1>
+            <p className="user-para">
+              Revenue Surge for an
+              <br />
+              platform
+            </p>
+          </Col>
+          <Col>
+            <h1 className="userExp-flex">10X</h1>
+            <p className="user-para">
+              Roads on all our
+              <br />
+              marketing campaigns
+            </p>
+          </Col>
+        </Row>
+      </Container>
 
-    <div>
-      <h3 className="interested">Interested in delving deeper into the project?</h3>
-      <br />
-      <p className="descPara-4">If you'd like to explore further details about our initiatives or any of our<br /> affiliated brands, don't hesitate to connect. You can reach out to us via<br /> email at <b>hello@abc.com</b> or give us a call at <b>+91 480 20802730.</b></p>
-    </div>
+      <div>
+        <h3 className="interested">
+          Interested in delving deeper into the project?
+        </h3>
+        <br />
+        <p className="descPara-4">
+          If you'd like to explore further details about our initiatives or any
+          of our
+          <br /> affiliated brands, don't hesitate to connect. You can reach out
+          to us via
+          <br /> email at <b>hello@abc.com</b> or give us a call at{" "}
+          <b>+91 480 20802730.</b>
+        </p>
+      </div>
 
-    <Container className="twoButtons">
-      <Row>
-        <Col></Col>
-        <Col></Col>
-        <Col><Button className="skype">Ring us on skype</Button></Col>
-        <Col><Button className="contact">Contact us</Button></Col>
-        <Col></Col>
-        <Col></Col>
-      </Row>
-    </Container>
-    <div>
-      <p className="rights">© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
-    </div>
+      <Container className="twoButtons">
+        <Row>
+          <Col></Col>
+          <Col></Col>
+          <Col>
+            <Button className="skype">Ring us on skype</Button>
+          </Col>
+          <Col>
+            <Button className="contact">Contact us</Button>
+          </Col>
+          <Col></Col>
+          <Col></Col>
+        </Row>
+      </Container>
+      <div>
+        <p className="rights">
+          © 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved
+        </p>
+      </div>
     </>
   );
 }
