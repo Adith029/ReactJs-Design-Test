@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="./React App_files/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.download"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFO0lBQ0UsNENBQTRDO0VBQzlDO0FBQ0Y7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2Qiw2QkFBNkI7RUFDN0IsWUFBWTtBQUNkOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFO0lBQ0UsdUJBQXVCO0VBQ3pCO0VBQ0E7SUFDRSx5QkFBeUI7RUFDM0I7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi5BcHAge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5BcHAtbG9nbyB7XG4gIGhlaWdodDogNDB2bWluO1xuICBwb2ludGVyLWV2ZW50czogbm9uZTtcbn1cblxuQG1lZGlhIChwcmVmZXJzLXJlZHVjZWQtbW90aW9uOiBuby1wcmVmZXJlbmNlKSB7XG4gIC5BcHAtbG9nbyB7XG4gICAgYW5pbWF0aW9uOiBBcHAtbG9nby1zcGluIGluZmluaXRlIDIwcyBsaW5lYXI7XG4gIH1cbn1cblxuLkFwcC1oZWFkZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjgyYzM0O1xuICBtaW4taGVpZ2h0OiAxMDB2aDtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogY2FsYygxMHB4ICsgMnZtaW4pO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi5BcHAtbGluayB7XG4gIGNvbG9yOiAjNjFkYWZiO1xufVxuXG5Aa2V5ZnJhbWVzIEFwcC1sb2dvLXNwaW4ge1xuICBmcm9tIHtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcbiAgfVxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>body {
+  background-color: black;
+  margin: 20px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.x-div {
+    margin-top: 55px;
+    margin-right: 20px;
+  width: 50px;
+  opacity: 90%;
+  margin-left: auto;
+}
+.x {
+  font-size: 40px;
+}
+
+.descPara-1 {
+    opacity: 90%;
+  margin-top: 60px;
+  font-size: 47px;
+  font-weight: 200;
+  line-height: 48px;
+  letter-spacing: 0.9599999785423279px;
+  text-align: center;
+}
+.image1 {
+  margin-top: 30px;
+  width: 1415px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+.descPara-2 {
+  margin-top: 40px;
+  opacity: 80%;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 27px;
+  text-align: center;
+}
+
+.visit-website {
+  margin-top: 40px;
+  width: 406px;
+  height: 60px;
+  border-radius: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  color: black;
+}
+.flexImagesContainer {
+  margin-top: 160px;
+  gap: 20px;
+}
+.flexImages {
+  width: 350px;
+  height: 350px;
+}
+.flex-para-1 {
+  margin-top: 10px;
+  font-size: 19px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.contribution {
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 200;
+  opacity: 90%;
+}
+
+.descPara-3 {
+    margin-top: 20px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  opacity: 80%;
+}
+.userExp-flex {
+  margin-top: 80px;
+  font-size: 80px;
+  font-weight: 200;
+  opacity: 90%;
+}
+
+.user-para {
+  opacity: 80%;
+  font-size: 22px;
+  font-weight: 100;
+}
+.interested {
+  margin-top: 160px;
+  font-size: 50px;
+  font-weight: 200;
+  opacity: 90%;
+}
+.descPara-4 {
+  margin-top: 20px;
+  font-size: 25px;
+  opacity: 80%;
+}
+.twoButtons {
+  margin-top: 60px;
+}
+.skype {
+  width: 350px;
+  height: 60px;
+  border-radius: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  text-wrap: nowrap;
+}
+.contact {
+  width: 350px;
+  height: 60px;
+  border-radius: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  color: black;
+}
+
+.rights {
+  margin-top: 220px;
+  opacity: 50%;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .descPara-1 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  
+    .image1 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .flexImages {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .flexImagesContainer {
+      margin-top: 50px;
+    }
+  
+    .visit-website, .skype, .contact {
+      width: 100%;
+    }
+  }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9TdHlsZXMvSHRtbFBhZ2UuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsdUJBQXVCO0VBQ3ZCLFlBQVk7RUFDWixZQUFZO0VBQ1osbUpBQW1KO0FBQ3JKOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGtCQUFrQjtFQUNwQixXQUFXO0VBQ1gsWUFBWTtFQUNaLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtBQUNqQjs7QUFFQTtJQUNJLFlBQVk7RUFDZCxnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsb0NBQW9DO0VBQ3BDLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGFBQWE7RUFDYixhQUFhO0VBQ2IsaUJBQWlCO0VBQ2pCLG9CQUFvQjtBQUN0QjtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFlBQVk7RUFDWixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsWUFBWTtFQUNaLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFlBQVk7RUFDWix1QkFBdUI7RUFDdkIsWUFBWTtBQUNkO0FBQ0E7RUFDRSxpQkFBaUI7RUFDakIsU0FBUztBQUNYO0FBQ0E7RUFDRSxZQUFZO0VBQ1osYUFBYTtBQUNmO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixZQUFZO0FBQ2Q7O0FBRUE7SUFDSSxnQkFBZ0I7RUFDbEIsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLFlBQVk7QUFDZDtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsWUFBWTtFQUNaLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLFlBQVk7QUFDZDtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixZQUFZO0FBQ2Q7QUFDQTtFQUNFLGdCQUFnQjtBQUNsQjtBQUNBO0VBQ0UsWUFBWTtFQUNaLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFlBQVk7RUFDWix1QkFBdUI7RUFDdkIsWUFBWTtFQUNaLHVCQUF1QjtFQUN2QixpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLFlBQVk7RUFDWixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUixZQUFZO0VBQ1osdUJBQXVCO0VBQ3ZCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGlCQUFpQjtFQUNqQixZQUFZO0VBQ1osZUFBZTtBQUNqQjs7QUFFQTtJQUNJO01BQ0UsZUFBZTtNQUNmLGlCQUFpQjtJQUNuQjs7SUFFQTtNQUNFLFdBQVc7TUFDWCxZQUFZO0lBQ2Q7O0lBRUE7TUFDRSxXQUFXO01BQ1gsZUFBZTtNQUNmLFlBQVk7SUFDZDs7SUFFQTtNQUNFLGdCQUFnQjtJQUNsQjs7SUFFQTtNQUNFLFdBQVc7SUFDYjtFQUNGIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICBtYXJnaW46IDIwcHg7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgZm9udC1mYW1pbHk6IHN5c3RlbS11aSwgLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sIE94eWdlbiwgVWJ1bnR1LCBDYW50YXJlbGwsICdPcGVuIFNhbnMnLCAnSGVsdmV0aWNhIE5ldWUnLCBzYW5zLXNlcmlmO1xufVxuXG4ueC1kaXYge1xuICAgIG1hcmdpbi10b3A6IDU1cHg7XG4gICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICB3aWR0aDogNTBweDtcbiAgb3BhY2l0eTogOTAlO1xuICBtYXJnaW4tbGVmdDogYXV0bztcbn1cbi54IHtcbiAgZm9udC1zaXplOiA0MHB4O1xufVxuXG4uZGVzY1BhcmEtMSB7XG4gICAgb3BhY2l0eTogOTAlO1xuICBtYXJnaW4tdG9wOiA2MHB4O1xuICBmb250LXNpemU6IDQ3cHg7XG4gIGZvbnQtd2VpZ2h0OiAyMDA7XG4gIGxpbmUtaGVpZ2h0OiA0OHB4O1xuICBsZXR0ZXItc3BhY2luZzogMC45NTk5OTk5Nzg1NDIzMjc5cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbi5pbWFnZTEge1xuICBtYXJnaW4tdG9wOiAzMHB4O1xuICB3aWR0aDogMTQxNXB4O1xuICBoZWlnaHQ6IDUwMHB4O1xuICBvYmplY3QtZml0OiBjb3ZlcjtcbiAgb2JqZWN0LXBvc2l0aW9uOiB0b3A7XG59XG4uZGVzY1BhcmEtMiB7XG4gIG1hcmdpbi10b3A6IDQwcHg7XG4gIG9wYWNpdHk6IDgwJTtcbiAgZm9udC1zaXplOiAyMXB4O1xuICBmb250LXdlaWdodDogMTAwO1xuICBsaW5lLWhlaWdodDogMjdweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4udmlzaXQtd2Vic2l0ZSB7XG4gIG1hcmdpbi10b3A6IDQwcHg7XG4gIHdpZHRoOiA0MDZweDtcbiAgaGVpZ2h0OiA2MHB4O1xuICBib3JkZXItcmFkaXVzOiAwcHg7XG4gIGdhcDogMHB4O1xuICBvcGFjaXR5OiAwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICBjb2xvcjogYmxhY2s7XG59XG4uZmxleEltYWdlc0NvbnRhaW5lciB7XG4gIG1hcmdpbi10b3A6IDE2MHB4O1xuICBnYXA6IDIwcHg7XG59XG4uZmxleEltYWdlcyB7XG4gIHdpZHRoOiAzNTBweDtcbiAgaGVpZ2h0OiAzNTBweDtcbn1cbi5mbGV4LXBhcmEtMSB7XG4gIG1hcmdpbi10b3A6IDEwcHg7XG4gIGZvbnQtc2l6ZTogMTlweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBvcGFjaXR5OiA4MCU7XG59XG5cbi5jb250cmlidXRpb24ge1xuICBtYXJnaW4tdG9wOiAxNTBweDtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250LXdlaWdodDogMjAwO1xuICBvcGFjaXR5OiA5MCU7XG59XG5cbi5kZXNjUGFyYS0zIHtcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICBmb250LXNpemU6IDE5cHg7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG4gIGxpbmUtaGVpZ2h0OiAyN3B4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG9wYWNpdHk6IDgwJTtcbn1cbi51c2VyRXhwLWZsZXgge1xuICBtYXJnaW4tdG9wOiA4MHB4O1xuICBmb250LXNpemU6IDgwcHg7XG4gIGZvbnQtd2VpZ2h0OiAyMDA7XG4gIG9wYWNpdHk6IDkwJTtcbn1cblxuLnVzZXItcGFyYSB7XG4gIG9wYWNpdHk6IDgwJTtcbiAgZm9udC1zaXplOiAyMnB4O1xuICBmb250LXdlaWdodDogMTAwO1xufVxuLmludGVyZXN0ZWQge1xuICBtYXJnaW4tdG9wOiAxNjBweDtcbiAgZm9udC1zaXplOiA1MHB4O1xuICBmb250LXdlaWdodDogMjAwO1xuICBvcGFjaXR5OiA5MCU7XG59XG4uZGVzY1BhcmEtNCB7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgb3BhY2l0eTogODAlO1xufVxuLnR3b0J1dHRvbnMge1xuICBtYXJnaW4tdG9wOiA2MHB4O1xufVxuLnNreXBlIHtcbiAgd2lkdGg6IDM1MHB4O1xuICBoZWlnaHQ6IDYwcHg7XG4gIGJvcmRlci1yYWRpdXM6IDBweDtcbiAgZ2FwOiAwcHg7XG4gIG9wYWNpdHk6IDBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgYm9yZGVyOiAxcHggc29saWQgd2hpdGU7XG4gIHRleHQtd3JhcDogbm93cmFwO1xufVxuLmNvbnRhY3Qge1xuICB3aWR0aDogMzUwcHg7XG4gIGhlaWdodDogNjBweDtcbiAgYm9yZGVyLXJhZGl1czogMHB4O1xuICBnYXA6IDBweDtcbiAgb3BhY2l0eTogMHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgY29sb3I6IGJsYWNrO1xufVxuXG4ucmlnaHRzIHtcbiAgbWFyZ2luLXRvcDogMjIwcHg7XG4gIG9wYWNpdHk6IDUwJTtcbiAgZm9udC1zaXplOiAxMnB4O1xufVxuXG5AbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAuZGVzY1BhcmEtMSB7XG4gICAgICBmb250LXNpemU6IDM1cHg7XG4gICAgICBsaW5lLWhlaWdodDogNDBweDtcbiAgICB9XG4gIFxuICAgIC5pbWFnZTEge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBoZWlnaHQ6IGF1dG87XG4gICAgfVxuICBcbiAgICAuZmxleEltYWdlcyB7XG4gICAgICB3aWR0aDogMTAwJTtcbiAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgIGhlaWdodDogYXV0bztcbiAgICB9XG4gIFxuICAgIC5mbGV4SW1hZ2VzQ29udGFpbmVyIHtcbiAgICAgIG1hcmdpbi10b3A6IDUwcHg7XG4gICAgfVxuICBcbiAgICAudmlzaXQtd2Vic2l0ZSwgLnNreXBlLCAuY29udGFjdCB7XG4gICAgICB3aWR0aDogMTAwJTtcbiAgICB9XG4gIH0iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="x-div"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 15 15" class="x" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="currentColor"></path></svg></div><div class="description-1"><p class="descPara-1"> Epic Games : An American video game and software developer <br> and publisher based in Cary, North Carolina.</p></div><div><img src="./React App_files/Fortnite-Next-Gen-Superheroes.02d890fa2a0b7647ca2f.avif" alt="" class="image1"></div><div><p class="descPara-2">Create, play, and battle with friends for free in Fortnite. Be the last player standing in Battle Royale and Zero Build, experience a concert <br> or live event, or discover over a million creator made games, including racing, parkour, zombie survival, and more. Each Fortnite island has <br> an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite ... Drop In.</p></div><div><button type="button" class="visit-website btn btn-primary">Visit Website</button></div><div class="flexImagesContainer container"><div class="row"><div class="col"></div><div class="col"><img src="./React App_files/2501faa7f289434a9b99bafaa474cc0e" alt="" class="flexImages"><p class="flex-para-1">Explore large, destructible <br> environments where no two games <br> are ever the same.</p></div><div class="col"><img src="./React App_files/d7258eeaa99e5ea5585055099ce474ea" alt="" class="flexImages"><p class="flex-para-1">Team up with friends by sprinting, climbing and smashing your way to <br> earn your Victory Royale</p></div><div class="col"><img src="./React App_files/95547eb344eb0c0875a5194c38c5747c" alt="" class="flexImages"><p class="flex-para-1">Discover even more ways to play <br> across thousands of creator-made <br> game genres</p></div><div class="col"></div></div></div><div><h1 class="contribution">Our Contribution</h1><p class="descPara-3">Our core offering extends beyond mere profit generation; we emphasize the growth and active involvement of our user <br>community. Collaborating with us represents an investment, rather than a mere expenditure. Our dedication to providing <br>distinctive digital interactions guarantees unparalleled benefits for our clientele.</p></div><div class="userExp container"><div class="row"><div class="col"></div><div class="col"><h1 class="userExp-flex">5M</h1><p class="user-para">Daily User<br>Engagements</p></div><div class="col"><h1 class="userExp-flex">$500K</h1><p class="user-para">Revenue Surge for an<br>platform</p></div><div class="col"><h1 class="userExp-flex">10X</h1><p class="user-para">Roads on all our<br>marketing campaigns</p></div><div class="col"></div></div></div><div><h3 class="interested">Interested in delving deeper into the project?</h3><br><p class="descPara-4">If you'd like to explore further details about our initiatives or any of our<br> affiliated brands, don't hesitate to connect. You can reach out to us via<br> email at <b>hello@abc.com</b> or give us a call at <b>+91 480 20802730.</b></p></div><div class="twoButtons container"><div class="row"><div class="col"></div><div class="col"></div><div class="col"><button type="button" class="skype btn btn-primary">Ring us on skype</button></div><div class="col"><button type="button" class="contact btn btn-primary">Contact us</button></div><div class="col"></div><div class="col"></div></div></div><div><p class="rights">© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
