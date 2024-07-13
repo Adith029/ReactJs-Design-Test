@@ -1,0 +1,161 @@
+body {
+  background-color: black;
+  margin: 20px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.x-div {
+    margin-top: 55px;
+    margin-right: 20px;
+  width: 50px;
+  opacity: 90%;
+  margin-left: auto;
+}
+.x {
+  font-size: 40px;
+}
+
+.descPara-1 {
+    opacity: 90%;
+  margin-top: 60px;
+  font-size: 47px;
+  font-weight: 200;
+  line-height: 48px;
+  letter-spacing: 0.9599999785423279px;
+  text-align: center;
+}
+.image1 {
+  margin-top: 30px;
+  width: 1415px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+.descPara-2 {
+  margin-top: 40px;
+  opacity: 80%;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 27px;
+  text-align: center;
+}
+
+.visit-website {
+  margin-top: 40px;
+  width: 406px;
+  height: 60px;
+  border-radius: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  color: black;
+}
+.flexImagesContainer {
+  margin-top: 160px;
+  gap: 20px;
+}
+.flexImages {
+  width: 350px;
+  height: 350px;
+}
+.flex-para-1 {
+  margin-top: 10px;
+  font-size: 19px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.contribution {
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 200;
+  opacity: 90%;
+}
+
+.descPara-3 {
+    margin-top: 20px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  opacity: 80%;
+}
+.userExp-flex {
+  margin-top: 80px;
+  font-size: 80px;
+  font-weight: 200;
+  opacity: 90%;
+}
+
+.user-para {
+  opacity: 80%;
+  font-size: 22px;
+  font-weight: 100;
+}
+.interested {
+  margin-top: 160px;
+  font-size: 50px;
+  font-weight: 200;
+  opacity: 90%;
+}
+.descPara-4 {
+  margin-top: 20px;
+  font-size: 25px;
+  opacity: 80%;
+}
+.twoButtons {
+  margin-top: 60px;
+}
+.skype {
+  width: 350px;
+  height: 60px;
+  border-radius: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  text-wrap: nowrap;
+}
+.contact {
+  width: 350px;
+  height: 60px;
+  border-radius: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  color: black;
+}
+
+.rights {
+  margin-top: 220px;
+  opacity: 50%;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .descPara-1 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  
+    .image1 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .flexImages {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .flexImagesContainer {
+      margin-top: 50px;
+    }
+  
+    .visit-website, .skype, .contact {
+      width: 100%;
+    }
+  }
