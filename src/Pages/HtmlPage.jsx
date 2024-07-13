@@ -53,7 +53,7 @@ function HtmlPage() {
               alt=""
               className="flexImages"
             />
-            <p className="flex-para-1">Team up with friends by sprinting, climbing and smashing your way to <br /> earn your Victory Royale</p>
+            <p className="flex-para-1">Team up with friends by sprinting,<br /> climbing and smashing your way to <br /> earn your Victory Royale</p>
           </Col>
           <Col>
             <img
